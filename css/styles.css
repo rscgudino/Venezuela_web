@@ -86,8 +86,8 @@ h2 {
 }
 
 .product-image {
-  width: 100%; /* Asegúrate de que la imagen ocupe el ancho del contenedor */
-  height: 400px; /* Establece una altura fija para todas las imágenes */
+  width: 100%; /*  ancho del contenedor */
+  height: 400px; /*  altura fija para todas las img */
   object-fit: cover; /* Mantiene la proporción y cubre el área asignada */
   border-radius: 8px; /* Mantiene el borde redondeado */
 }
