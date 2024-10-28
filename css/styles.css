@@ -23,6 +23,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -84,9 +86,13 @@ h2 {
 }
 
 .product-image {
-  max-width: 100%;
-  border-radius: 8px;
+  width: 100%; /* Asegúrate de que la imagen ocupe el ancho del contenedor */
+  height: 400px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Mantiene la proporción y cubre el área asignada */
+  border-radius: 8px; /* Mantiene el borde redondeado */
 }
+
+
 
 blockquote {
   border-left: 5px solid #ff5722;
